@@ -1,0 +1,125 @@
+#boxx{
+    height: 200px;
+    background-color: #604bfc;
+}
+
+.containerr {
+    display: flex;
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 0;
+    width: 957px;
+    justify-content: center; /* Centers the child elements horizontally */
+    text-align: center;
+    margin-top: 45px; 
+}
+
+.containerr div {
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 170px;
+    width: 600px;
+    margin: 20px;
+    box-shadow: 1px  2px rgb(211, 210, 210);
+    align-items: center; /* Centers the content vertically */
+}
+
+.containerr div h1{
+    margin-top: 20px;
+
+}
+.containerr div p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.table-container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 1000px;
+    margin: 17px auto;
+    box-shadow: 1px  2px rgb(211, 210, 210);
+    border-collapse: separate; /* separate borders between cells */
+    border-spacing: 0; /* remove spacing between cells */
+    text-align: center; /* center align the table */
+}
+ 
+.table-container td {
+    padding: 25px;
+    text-align: left;
+    width: 500px;
+    border: none; /* remove default border */
+    border-bottom: 1px solid #ddd; /* add bottom border */
+}
+
+.table-container th{
+    padding: 20px;
+    text-align: left;
+    width: 500px;
+    border: none;
+    color: #748186;
+    border-bottom: 1px solid #ddd; 
+}
+#iconn-div{
+   width: 45px;
+   height: 45px;
+  background-color: #e1ddfd;
+    align-items: center;
+   margin: auto;
+   padding: auto;
+   margin-top: 10px;
+   color: #604bfc;
+}
+
+.selectOP{
+    font-size: 17px;
+    border-radius: 5px;
+    height: 29px;
+    border: none;
+    box-shadow: 1px  2px rgb(211, 210, 210);
+}
+#modifier{
+    border: none;
+    background-color: rgb(81, 81, 236);
+    color: white;
+    cursor: pointer;
+    height: 29px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#sup{
+    border-radius: 5px;
+    background-color: #f51b34;
+    cursor:pointer;
+    width: 80px;
+    border:none;
+    height: 29px;
+ 
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+#sup2{
+    border-radius: 5px;
+    background-color: #f51b34;
+    cursor:pointer;
+    width: 50px;
+    border:none;
+    height: 29px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: white;
+    
+    align-items: center;
+}
+.roleselect{
+    border: none;
+    background-color: rgb(120, 120, 243);
+    color: white;
+    cursor: pointer;
+    height: 29px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
